@@ -81,9 +81,6 @@ function Activities() {
       {/* JUDUL UTAMA */}
       <h1 style={styles.title}>Weekend Planner</h1>
 
-
-
-
       {/* =========================
           PLANNER PRIBADI
       ========================= */}
@@ -112,8 +109,6 @@ function Activities() {
       <button style={styles.resetBtn} onClick={handleResetPlanner}>
         Reset Weekend
       </button>
-
-
 
       {/* =========================
           REKOMENDASI PLANNER
@@ -200,7 +195,7 @@ function Activities() {
 
 const styles = {
   container: {
-    background: "#fdf6ff",
+    background: "#4A4869",
     minHeight: "100vh",
     padding: "30px",
     textAlign: "center",
@@ -209,18 +204,21 @@ const styles = {
   title: {
     fontSize: "32px",
     marginBottom: "10px",
+    color: "#F5F0E0",
   },
 
   personalTitle: {
     marginTop: "50px",
     marginBottom: "20px",
     fontSize: "24px",
+    color: "#F5F0E0",
   },
 
   subtitle: {
     marginTop: "50px",
     marginBottom: "20px",
     fontSize: "24px",
+    color: "#F5F0E0",
   },
 
   dayContainer: {
@@ -230,19 +228,20 @@ const styles = {
   },
 
   dayBtn: {
-    background: "#ffe0f0",
+    background: "#8B96BB",
     border: "none",
     padding: "12px 18px",
     borderRadius: "12px",
     cursor: "pointer",
     fontSize: "15px",
     fontWeight: "600",
+    color: "#2D2B4A",
   },
 
   resetBtn: {
     marginTop: "20px",
-    background: "#ffb3c6",
-    color: "white",
+    background: "#8B96BB",
+    color: "#F5F0E0",
     border: "none",
     padding: "10px 18px",
     borderRadius: "10px",
@@ -264,12 +263,13 @@ const styles = {
   },
 
   activityCard: {
-    background: "#ffffff",
+    background: "#D6CFCA",
     padding: "15px",
     borderRadius: "15px",
     boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
     transition: "0.2s",
     cursor: "pointer",
+    color: "#2D2B4A",
   },
 
   overlay: {
@@ -285,12 +285,13 @@ const styles = {
   },
 
   modal: {
-    background: "#ffffff",
+    background: "#F5F0E0",
     padding: "20px",
     borderRadius: "15px",
     width: "300px",
     textAlign: "center",
     boxShadow: "0 5px 15px rgba(0,0,0,0.2)",
+    color: "#2D2B4A",
   },
 
   input: {
@@ -298,12 +299,12 @@ const styles = {
     padding: "8px",
     margin: "5px",
     borderRadius: "8px",
-    border: "1px solid #ccc",
+    border: "1px solid #8B96BB",
   },
 
   addBtn: {
-    background: "#c084fc",
-    color: "white",
+    background: "#4A4869",
+    color: "#F5F0E0",
     border: "none",
     padding: "8px 15px",
     borderRadius: "8px",
@@ -313,7 +314,8 @@ const styles = {
 
   closeBtn: {
     marginTop: "10px",
-    background: "#ddd",
+    background: "#8B96BB",
+    color: "#F5F0E0",
     border: "none",
     padding: "8px",
     borderRadius: "8px",
@@ -332,14 +334,15 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "center",
     marginBottom: "8px",
-    background: "#f9f9f9",
+    background: "#D6CFCA",
     padding: "8px",
     borderRadius: "8px",
+    color: "#2D2B4A",
   },
 
   deleteBtn: {
-    background: "#ff8fa3",
-    color: "white",
+    background: "#4A4869",
+    color: "#F5F0E0",
     border: "none",
     padding: "5px 10px",
     borderRadius: "8px",

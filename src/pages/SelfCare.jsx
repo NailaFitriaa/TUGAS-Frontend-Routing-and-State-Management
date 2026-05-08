@@ -9,10 +9,9 @@ function SelfCare() {
 
   const selfCareList = [
     "Minum air putih cukup",
-    "Tidur lebih awal",
+    "Tidur yang cukup",
     "Journaling / menulis isi pikiran",
     "Stretching atau jalan santai",
-    "Digital detox 2 jam",
   ];
 
   const moodOptions = [
@@ -79,7 +78,7 @@ function SelfCare() {
 
       {/* QUOTE */}
       <p style={styles.quote}>
-        “Weekend gak harus produktif, yang penting kamu recharge.”
+        "Weekend gak harus produktif, yang penting kamu recharge."
       </p>
 
       {/* =========================
@@ -135,7 +134,7 @@ function SelfCare() {
 
 const styles = {
   container: {
-    background: "#fdf6ff",
+    background: "#4A4869",
     minHeight: "100vh",
     padding: "30px",
     textAlign: "center",
@@ -144,12 +143,13 @@ const styles = {
   title: {
     fontSize: "32px",
     marginBottom: "20px",
+    color: "#F5F0E0",
   },
 
   quote: {
     fontSize: "18px",
     fontStyle: "italic",
-    color: "#7b5ea7",
+    color: "#D6CFCA",
     marginBottom: "40px",
   },
 
@@ -157,6 +157,7 @@ const styles = {
     fontSize: "24px",
     marginTop: "40px",
     marginBottom: "20px",
+    color: "#F5F0E0",
   },
 
   moodContainer: {
@@ -167,44 +168,48 @@ const styles = {
   },
 
   moodBtn: {
-    background: "#ffe0f0",
+    background: "#8B96BB",
     border: "none",
     padding: "12px 18px",
     borderRadius: "12px",
     cursor: "pointer",
     fontSize: "15px",
     fontWeight: "600",
+    color: "#2D2B4A",
   },
 
   recommendBox: {
-    background: "#ffffff",
+    background: "#D6CFCA",
     maxWidth: "400px",
     margin: "20px auto",
     padding: "20px",
     borderRadius: "15px",
     boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+    color: "#2D2B4A",
   },
 
   checklistBox: {
-    background: "#ffffff",
+    background: "#D6CFCA",
     maxWidth: "500px",
     margin: "20px auto",
     padding: "20px",
     borderRadius: "15px",
     boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
     textAlign: "left",
+    color: "#2D2B4A",
   },
 
   checkItem: {
     display: "block",
     marginBottom: "15px",
     fontSize: "16px",
+    color: "#2D2B4A",
   },
 
   resetBtn: {
     marginTop: "20px",
-    background: "#c084fc",
-    color: "white",
+    background: "#8B96BB",
+    color: "#F5F0E0",
     border: "none",
     padding: "10px 18px",
     borderRadius: "10px",

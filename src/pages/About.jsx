@@ -5,10 +5,6 @@ function About() {
     <div style={styles.container}>
       <Navbar />
 
-
-
-
-
       {/* =========================
           ABOUT WEBSITE
       ========================= */}
@@ -16,15 +12,10 @@ function About() {
 
       <p style={styles.description}>
         Weekend Planner adalah website sederhana yang membantu kamu menemukan
-        kesibukan yang seru di weekendmu. Website ini dirancang
-        buat kamu yang kadang hilang arah ngapain pas hari libur, biar weekend
-        gak cuma rebahan dan overthinking.
+        kesibukan yang seru di weekendmu. Website ini dirancang buat kamu yang
+        kadang hilang arah ngapain pas hari libur, biar weekend gak cuma rebahan
+        dan overthinking.
       </p>
-
-
-
-
-
 
       {/* =========================
           OUR FEATURES
@@ -53,18 +44,14 @@ function About() {
         </div>
       </div>
 
-
-
-
-
-
       {/* =========================
           OUR MISSION
       ========================= */}
       <h2 style={styles.subtitle}>Our Mission</h2>
 
       <p style={styles.quote}>
-        “Gak apa-apa kalau weekend kamu gak selalu produktif. Kadang istirahat tanpa rasa bersalah juga termasuk progress”
+        "Gak apa-apa kalau weekend kamu gak selalu produktif. Kadang istirahat
+        tanpa rasa bersalah juga termasuk progress"
       </p>
     </div>
   );
@@ -72,7 +59,7 @@ function About() {
 
 const styles = {
   container: {
-    background: "#fdf6ff",
+    background: "#4A4869",
     minHeight: "100vh",
     padding: "30px",
     textAlign: "center",
@@ -81,6 +68,7 @@ const styles = {
   title: {
     fontSize: "32px",
     marginBottom: "20px",
+    color: "#F5F0E0",
   },
 
   description: {
@@ -88,13 +76,14 @@ const styles = {
     margin: "0 auto",
     fontSize: "18px",
     lineHeight: "1.8",
-    color: "#555",
+    color: "#D6CFCA",
   },
 
   subtitle: {
     marginTop: "60px",
     marginBottom: "25px",
     fontSize: "26px",
+    color: "#F5F0E0",
   },
 
   featuresContainer: {
@@ -105,16 +94,17 @@ const styles = {
   },
 
   card: {
-    background: "#ffffff",
+    background: "#D6CFCA",
     padding: "20px",
     borderRadius: "15px",
     boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+    color: "#2D2B4A",
   },
 
   quote: {
     fontSize: "20px",
     fontStyle: "italic",
-    color: "#7b5ea7",
+    color: "#F5F0E0",
     marginTop: "10px",
   },
 };

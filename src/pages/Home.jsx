@@ -38,11 +38,6 @@ function Home() {
           </div>
         </div>
 
-        {/* stamp kiri bawah */}
-        <div style={styles.stamp}>
-          <span style={styles.stampText}>weekend vibes • weekend vibes •</span>
-        </div>
-
       </div>
 
       {/* =========================
@@ -57,7 +52,7 @@ function Home() {
 
 const styles = {
   container: {
-    background: "#4a4570",
+    background: "#4A4869",
     minHeight: "100vh",
     padding: "30px",
     textAlign: "center",
@@ -65,7 +60,7 @@ const styles = {
 
   bannerOuter: {
     position: "relative",
-    background: "#8b8fad",
+    background: "#8B96BB",
     borderRadius: "24px",
     padding: "0",
     maxWidth: "860px",
@@ -110,18 +105,18 @@ const styles = {
   },
 
   bannerCard: {
-    background: "#d8d0c4",
+    background: "#D6CFCA",
     borderRadius: "18px",
     padding: "36px 48px",
     maxWidth: "380px",
     width: "100%",
-    border: "1.5px dashed #8b8fad",
+    border: "1.5px dashed #8B96BB",
     zIndex: 1,
   },
 
   bannerSub: {
     fontSize: "13px",
-    color: "#4a4570",
+    color: "#2D2B4A",
     fontWeight: "600",
     letterSpacing: "0.05em",
     margin: "0 0 6px",
@@ -130,7 +125,7 @@ const styles = {
   bannerTitle1: {
     fontSize: "48px",
     fontWeight: "900",
-    color: "#4a4570",
+    color: "#2D2B4A",
     margin: "0",
     lineHeight: "1.1",
     letterSpacing: "2px",
@@ -140,7 +135,7 @@ const styles = {
   bannerTitle2: {
     fontSize: "48px",
     fontWeight: "900",
-    color: "#6b6890",
+    color: "#4A4869",
     margin: "0 0 8px",
     lineHeight: "1.1",
     letterSpacing: "2px",
@@ -150,7 +145,7 @@ const styles = {
   bannerScript: {
     fontSize: "20px",
     fontStyle: "italic",
-    color: "#4a4570",
+    color: "#2D2B4A",
     margin: "0 0 24px",
   },
 
@@ -165,8 +160,8 @@ const styles = {
     fontSize: "13px",
     padding: "10px 22px",
     borderRadius: "999px",
-    background: "#4a4570",
-    color: "#f8f5ee",
+    background: "#4A4869",
+    color: "#F5F0E0",
     border: "none",
     cursor: "pointer",
     fontWeight: "700",
@@ -177,8 +172,8 @@ const styles = {
     padding: "10px 22px",
     borderRadius: "999px",
     background: "transparent",
-    color: "#4a4570",
-    border: "1.5px solid #4a4570",
+    color: "#2D2B4A",
+    border: "1.5px solid #4A4869",
     cursor: "pointer",
     fontWeight: "600",
   },
@@ -190,7 +185,7 @@ const styles = {
     width: "80px",
     height: "80px",
     borderRadius: "50%",
-    border: "2px dashed #d8d0c4",
+    border: "2px dashed #D6CFCA",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -199,7 +194,7 @@ const styles = {
 
   stampText: {
     fontSize: "9px",
-    color: "#f8f5ee",
+    color: "#F5F0E0",
     fontWeight: "700",
     letterSpacing: "0.15em",
     textTransform: "uppercase",
@@ -209,7 +204,7 @@ const styles = {
 
   tagline: {
     fontSize: "15px",
-    color: "#c4bfe0",
+    color: "#D6CFCA",
     fontStyle: "italic",
     marginTop: "28px",
   },
